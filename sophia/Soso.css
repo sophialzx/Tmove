@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #8fb6ff, #709cf1);
+    color: #ffff;
+
+}
+
+h2 {
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0.1px 0.1px 50px #00000096;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.1px 0.1px 50px #00000096;
+}
+
+.cidade {
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-left: 70%;
+    font-family: 'League Spartan', sans-serif;
+    text-shadow: 0.1px 0.1px 50px #00000096;
+    margin-top: 50px;
+
+}
+.cidade2 {
+    font-size: 2em;
+    margin-left: 15%;
+    font-family: 'League Spartan', sans-serif;
+    text-shadow: 0.1px 0.1px 50px #00000096;
+    margin-top: 50px;
+ 
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 90px 0px 90px;
+}
+
+.pessoal img {
+    width: 25%;
+    height: 15%;
+    margin: 0px 30px;
+}
+
+.pessoal {
+    display: flex;
+}
+
+.pessoal p {
+    font-size: 1.5em;
+    margin: 2px 70px 0px 70px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.pessoal2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pessoal2 img {
+    width: 25%;
+    height: 15%;
+    margin: 0px 30px 0px 0px;
+}
+
+.pessoal2 p {
+    font-size: 1.5em;
+    margin: 2px 70px 0px 70px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.pessoal3 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.pessoal3 p {
+    font-size: 1.5em;
+    margin: 2px 70px 0px 70px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.pessoal3 img {
+    width: 25%;
+    height: 15%;
+    margin: 0px 30px;
+}
+
+.instapessoal {
+    text-decoration: none;
+}
+
+.instapessoal a:hover {
+    color: #ffff;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 90px 8px 90px;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 130%;
+    padding: 8px;
+    color: #ffff;
+}
+
+a:hover {
+    color: rgb(255, 234, 44);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flags {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.flags img {
+    border-radius: 30px;
+    width: 120px;
+    height: 80px;
+    margin: 0 8px 0 8px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+}
+
+.instagramtudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.github {
+
+    width: 80px;
+    height:70px;
+    border-radius: 50%;
+    padding-right: 10px;
+
+}
+
+.githubtudo {
+    display: flex;
+    flex-direction: row
+}
+
+.instagramnome {
+    text-align: center;
+    font-size: 1.5;
+    margin-top: 50px;
+    padding-right: 5px;
+    display: flex;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+}
+
+.githubnome {
+    text-align: center;
+    font-size: 1.5;
+    display: flex;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding-right: 5px;
+
+}
+
+.Brasil:hover {
+    display: flex;
+}
+
+.galeria{
+    margin: 2em;
+    display: flex;
+    height: 20em;
+    gap: 0.5em;
+}
+
+.galeria div{
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.7s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.galeria div:hover{
+    flex: 5;
+}
+
+
+.galeria:hover div:not(:hover){
+    filter: blur(0.1em) grayscale(50%);
+}
